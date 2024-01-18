@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Percabangan Bersarang</title>
+</head>
+
+<body>
+    <script>
+        var username = prompt("Masukan nama u");
+        var password = prompt("Password");
+
+        if (username == "admin") {
+            if (password == "skansika") {
+                document.write("<h2>Selamat datng pak bos!!</h2>");
+            } else {
+                document.write("<p>Password salah silahkan coba lagi</p>");
+
+            }
+        } else {
+            document.write("<p>Anda tidak terdaftar</p>");
+        }
+    </script>
+</body>
+
+</html>
